@@ -1,0 +1,4 @@
+*.BAK
+.build/
+Filter-PPI-Transform-v*/
+Filter-PPI-Transform-v*.tar.gz
