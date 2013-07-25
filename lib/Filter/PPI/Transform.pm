@@ -3,6 +3,7 @@ package Filter::PPI::Transform;
 use strict;
 use warnings;
 
+# ABSTRACT: Tiny adapter module from PPI::Transform to source filter
 # VERSION
 
 use Filter::Simple;
@@ -21,11 +22,6 @@ FILTER {
 
 1;
 __END__
-=pod
-
-=head1 NAME
-
-Filter::PPI::Transform - Tiny adapter module from PPI::Transform to source filter
 
 =head1 SYNOPSIS
 
@@ -44,29 +40,9 @@ The first option MUST be a name of subclass of C<PPI::Transform>. Rest of the op
 
 =head1 SEE ALSO
 
-=over 4
-
-=item *
-
-L<https://github.com/yak1ex/Filter-PPI-Transform> - Github repository
-
-=item *
-
-L<Filter::PPI> - Another PPI based source filtering. L<PPI::Document> is used.
-
-=item *
-
-L<Filter::Simple>
-
-=back
-
-=head1 AUTHOR
-
-Yasutaka ATARASHI <yakex@cpan.org>
-
-=head1 LICENSE
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+=for :list
+* L<https://github.com/yak1ex/Filter-PPI-Transform> - Github repository
+* L<Filter::PPI> - Another PPI based source filtering. L<PPI::Document> is used.
+* L<Filter::Simple>
 
 =cut

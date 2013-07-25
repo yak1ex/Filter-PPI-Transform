@@ -2,6 +2,10 @@
 
 Filter::PPI::Transform - Tiny adapter module from PPI::Transform to source filter
 
+# VERSION
+
+version v0.0.2
+
 # SYNOPSIS
 
     use Filter::PPI::Transform 'PPI::Transform::UpdateCopyright', name => 'Yasutaka ATARSHI';
@@ -27,7 +31,9 @@ The first option MUST be a name of subclass of `PPI::Transform`. Rest of the opt
 
 Yasutaka ATARASHI <yakex@cpan.org>
 
-# LICENSE
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Yasutaka ATARASHI.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
